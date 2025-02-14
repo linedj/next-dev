@@ -78,6 +78,7 @@ export default async function Page({
           (pageNo) => {
             return (
               <Link
+                key={pageNo}
                 className={pageNo == page ? `text-red-500` : `text-blue-500`}
                 href={`/post/list?keywordType=${keywordType}&keyword=${keyword}&pageSize=${pageSize}&page=${pageNo}`}
               >
