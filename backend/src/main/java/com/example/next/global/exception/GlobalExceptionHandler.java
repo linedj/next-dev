@@ -33,6 +33,7 @@ public class GlobalExceptionHandler {
                 );
     }
 
+
     @ResponseStatus
     @ExceptionHandler(ServiceException.class)
     public ResponseEntity<RsData<Void>> ServiceExceptionHandle(ServiceException ex) {

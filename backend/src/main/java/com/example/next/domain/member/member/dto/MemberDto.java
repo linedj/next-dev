@@ -8,7 +8,6 @@ import java.time.LocalDateTime;
 
 @Getter
 public class MemberDto {
-
     @NonNull
     private long id;
     @NonNull
@@ -17,7 +16,6 @@ public class MemberDto {
     private LocalDateTime modifiedDate;
     @NonNull
     private String nickname;
-
 
     public MemberDto(Member member) {
         this.id = member.getId();

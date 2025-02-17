@@ -47,7 +47,7 @@ public class ApiV1MemberController {
                 "201-1",
                 "회원 가입이 완료되었습니다.",
                 new MemberDto(member)
-        );
+                );
     }
 
 
@@ -93,7 +93,7 @@ public class ApiV1MemberController {
         return new RsData<>("200-1", "로그아웃 되었습니다.");
     }
 
-    @Operation(summary = "내 정보 조회")
+    @Operation(summary = "내 정보 조회12")
     @GetMapping("/me")
     public RsData<MemberDto> me() {
 
