@@ -3,7 +3,7 @@
 import { components } from "@/lib/backend/apiV1/schema";
 import Link from "next/link";
 
-export default function ClinetPage({
+export default function ClientPage({
   post,
   me,
 }: {
