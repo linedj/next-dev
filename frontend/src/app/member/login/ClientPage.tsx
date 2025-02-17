@@ -49,7 +49,6 @@ export default function ClinetPage() {
           placeholder="아이디 입력"
           className="border-2 border-black"
         />
-        ㅎ
         <input
           type="password"
           name="password"
