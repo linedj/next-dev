@@ -1,5 +1,6 @@
 import client from "@/lib/backend/client";
 import ClientPage from "./ClientPage";
+import path from "path";
 
 export default async function Page({
   params,
