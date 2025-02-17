@@ -148,7 +148,7 @@ export interface paths {
             path?: never;
             cookie?: never;
         };
-        /** 통계 조회 */
+        /** 통계 조회12 */
         get: operations["getStatistics"];
         put?: never;
         post?: never;
@@ -185,7 +185,7 @@ export interface paths {
             path?: never;
             cookie?: never;
         };
-        /** 내 정보 조회 */
+        /** 내 정보 조회12 */
         get: operations["me"];
         put?: never;
         post?: never;
@@ -235,18 +235,18 @@ export interface components {
         };
         PostWithContentDto: {
             /** Format: int64 */
-            id?: number;
+            id: number;
             /** Format: date-time */
-            createdDate?: string;
+            createdDate: string;
             /** Format: date-time */
-            modifiedDate?: string;
-            title?: string;
+            modifiedDate: string;
+            title: string;
             /** Format: int64 */
-            authorId?: number;
-            content?: string;
-            authorName?: string;
-            published?: boolean;
-            listed?: boolean;
+            authorId: number;
+            content: string;
+            authorName: string;
+            published: boolean;
+            listed: boolean;
         };
         RsDataPostWithContentDto: {
             code: string;
